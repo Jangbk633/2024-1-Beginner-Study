@@ -2,9 +2,9 @@
 
 깃허브와 컴퓨터 연결하기 위해서는
 
-    git config --global user.name <이름>
+    git config --global user.name "이름"
 
-    git config --global user.email <이메일>
+    git config --global user.email "이메일"
 
 식으로 작성한다.
 
@@ -16,11 +16,11 @@ github의 repository와 연동하기 위해서는
 
 vscode에서 내 github repository에 upload하기 위해서는
 
-    git add
+    git add .
 
-    git commit
+    git commit -m "주석"
 
-    git push
+    git push origin main
 
 순으로 입력해야 한다.
 
@@ -37,3 +37,5 @@ vscode에서 내 github repository에 upload하기 위해서는
     git log
 
 와 같은 명령어로 알아볼 수 있다.
+
+<https://github.com/Jangbk633/Jangbk633>
